@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/FC_Barcelona_(crest).svg.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <title> Fcb Store - Category</title>
+</head>
+
+<body>
+    <!-- start of header  -->
+
+    <header>
+        <div class="top-header d-flex align-items-center py-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-md-4">
+                        <a href="">
+                            <span class="span1">FC Barcelona Store</span>
+                            <img width="40" src="images/FC_Barcelona_(crest).svg.png" alt="FC Barcelona Logo">
+                        </a>
+                    </div>
+
+                    <div class="col-6 col-md-4">
+                        <input type="text" class="form-control" placeholder="اكتب هنا للبحث عن منتج">
+                    </div>
+
+                    <div class="col-md-4 left-header d-flex align-items-center d-none d-lg-flex justify-content-end">
+                        <a data-bs-toggle="offcanvas" href="#cart" role="button" aria-controls="offcanvasExample">
+                            <span>السلة</span>
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </a>
+                        <a href="">
+                            <span>المفضلة</span>
+                            <i class="fa-solid fa-heart"></i>
+                        </a>
+                        <a data-bs-toggle="offcanvas" href="#login" role="button" aria-controls="offcanvasExample">
+                            <span>الدخول</span>
+                            <i class="fa-solid fa-user"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="buttom-header">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+                    <button class="navbar-toggler menu-icon" type="button" data-bs-toggle="collapsedata-bs-target="#navbarSupportedContent aria-controls="navbarSupportedContent"aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+
+
+
+                    <div>
+                        <button class="navbar-toggler menu-icon" type="button" data-bs-toggle="offcanvas" href="#cart">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                        </button>
+
+
+                        <button class="navbar-toggler menu-icon" type="button" data-bs-toggle="offcanvas" href="#login">
+                            <i class="fa-solid fa-user"></i>
+                        </button>
+                    </div>
+
+
+
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="category.html">الرئيسية</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="category.html">التيشيرتات</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="category.html">الكابات</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="category.html">الساعات</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="category.html">الاحذية</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="category.html">الحقائب</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="category.html">الإكسسوارات</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- start bunner section  -->
+
+    <section class="banner">
+
+        <h1 class="bunner-title"></h1>
+    </section>
+  <h1 class="text-center section-title mb-5 mt-5">قسم التصنيفات</h1>
+    <div class="container mt-5 mb-5">
+         <button class="navbar-toggler menu-icon d-lg-none" type="button" data-bs-toggle="offcanvas" href="#filter">
+         <i class="fa-solid fa-cart-shopping"></i>
+        </button>
+
+        <div class="row">
+            <div class="col-md-3 d-none d-lg-block">
+                <div class="filter-section sticky-lg-top">
+                    <h3 class="filter-title">فلترة للبحث: </h3>
+                    <input type="text" class="form-control" placeholder="ابحث هنا عن اسم المنتج">
+                    <select name="" id="" class="form-select mt-3">
+                        <option value="">تيشيرتات</option>
+                        <option value="">كابات</option>
+                        <option value="">ساعات</option>
+                        <option value="">احذية</option>
+                        <option value="">حقائب</option>
+                        <option value="">اكسسوارات</option>
+                    </select>
+                    <hr class="filter-hr">
+
+                    <h3 class="filter-title">فلترة بالتصنيف:</h3>
+                    <div class="filter-radio">
+                        <div>
+                            <input name="category" type="radio" class="form-check-input">
+                            <label for="" class="form-label">تيشيرت</label>
+                        </div>
+                        <div>
+                            <input name="category" type="radio" class="form-check-input">
+                            <label for="" class="form-label">كابات</label>
+                        </div>
+                        <div>
+                            <input name="category" type="radio" class="form-check-input">
+                            <label for="" class="form-label">ساعات</label>
+                        </div>
+                        <div>
+                            <input name="category" type="radio" class="form-check-input">
+                            <label for="" class="form-label">احذية</label>
+                        </div>
+                        <div>
+                            <input name="category" type="radio" class="form-check-input">
+                            <label for="" class="form-label">حقائب</label>
+                        </div>
+                        <div>
+                            <input name="category" type="radio" class="form-check-input">
+                            <label for="" class="form-label">اكسسوارات</label>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-md-9">
+                <div class="row row-cols-2 row-cols-md-4">
+                    <div class="col product mb-2 tshirts">
+                        <div class="card overflow-hidden">
+                            <div class="quick-icons">
+                                <a href="#quick-product" data-bs-toggle="modal"><i
+                                        class="fa-solid fa-magnifying-glass"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                                <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                                </i>
+                            </div>
+                            <img src="images/تيشيرت كل المنتجات 2.webp" alt="t-shirt">
+                            <div class="product-info">
+                                <h3>تيشيرت </h3>
+                                <p>احدث التيشيرت من النادي</p>
+                                <div class="stars d-flex justify-content-center align-items-center mb-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="price mb-2">
+                                    <span class="new-price">50 دولار</span>
+                                    <span class="old-price">100 دولار</span>
+                                </div>
+                                <button onclick="alert('تم اضافة المنتج الى السلة')" class="btn btn-danger w-100">اضافة
+                                    الى السلة</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col product mb-2 tshirts">
+                        <div class="card overflow-hidden">
+                            <div class="quick-icons">
+                                <a href="#quick-product-2" data-bs-toggle="modal"><i
+                                        class="fa-solid fa-magnifying-glass"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                                <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                                </i>
+                            </div>
+                            <img src="images/تيشيرت كل المنتجات 3.webp" alt="t-shirt">
+                            <div class="product-info">
+                                <h3>تيشيرت </h3>
+                                <p> الوان متعددة</p>
+                                <div class="stars d-flex justify-content-center align-items-center mb-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="price mb-2">
+                                    <span class="new-price">60 دولار</span>
+                                    <span class="old-price">100 دولار</span>
+                                </div>
+                                <button onclick="alert('تم اضافة المنتج الى السلة')" class="btn btn-danger w-100">اضافة
+                                    الى السلة</button>
+                            </div>
+                        </div>
+                    </div>
+               
+                    <div class="col product mb-2 wachs">
+                        <div class="card overflow-hidden">
+                            <div class="quick-icons">
+                                <a href="#quick-product-4" data-bs-toggle="modal"><i
+                                        class="fa-solid fa-magnifying-glass"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                                <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                                </i>
+                            </div>
+                            <img src="images/ساعة_6-removebg-preview.png" alt="wachs">
+                            <div class="product-info">
+                                <h3>الساعات الثمينة</h3>
+                                <p>من افخم انواع الساعات</p>
+                                <div class="stars d-flex justify-content-center align-items-center mb-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="price mb-2">
+                                    <span class="new-price">500 دولار</span>
+                                    <span class="old-price">1000 دولار</span>
+                                </div>
+                                <button onclick="alert('تم اضافة المنتج الى السلة')" class="btn btn-danger w-100">اضافة
+                                    الى السلة</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col product mb-2 wachs">
+                        <div class="card overflow-hidden">
+                            <div class="quick-icons">
+                                <a href="#quick-product-5" data-bs-toggle="modal"><i
+                                        class="fa-solid fa-magnifying-glass"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                                <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                                </i>
+                            </div>
+                            <img src="images/ساعة4.jpg" alt="wachs">
+                            <div class="product-info">
+                                <h3>ساعة مميزة</h3>
+                                <p>ساعة بسيطة وجميلة وممميزة</p>
+                                <div class="stars d-flex justify-content-center align-items-center mb-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="price mb-2">
+                                    <span class="new-price">250 دولار</span>
+                                    <span class="old-price">500 دولار</span>
+                                </div>
+                                <button onclick="alert('تم اضافة المنتج الى السلة')" class="btn btn-danger w-100">اضافة
+                                    الى السلة</button>
+                            </div>
+                        </div>
+                    </div>
+                  
+                    <div class="col product mb-2 caps">
+                        <div class="card overflow-hidden">
+                            <div class="quick-icons">
+                                <a href="#quick-product-7" data-bs-toggle="modal"><i
+                                        class="fa-solid fa-magnifying-glass"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                                <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                                </i>
+                            </div>
+                            <img src="images/cap5-removebg-preview.png" alt="caps">
+                            <div class="product-info">
+                                <h3>كاب مميز</h3>
+                                <p>كاب مميز من نادي برشلونة</p>
+                                <div class="stars d-flex justify-content-center align-items-center mb-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="price mb-2">
+                                    <span class="new-price">30 دولار</span>
+                                    <span class="old-price">60 دولار</span>
+                                </div>
+                                <button onclick="alert('تم اضافة المنتج الى السلة')" class="btn btn-danger w-100">اضافة
+                                    الى السلة</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col product mb-2 caps">
+                        <div class="card overflow-hidden">
+                            <div class="quick-icons">
+                                <a href="#quick-product-8" data-bs-toggle="modal"><i
+                                        class="fa-solid fa-magnifying-glass"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                                <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                                </i>
+                            </div>
+                            <img src="images/كاب333.png" alt="cap">
+                            <div class="product-info">
+                                <h3>كاب مميز</h3>
+                                <p>كاب مميز من نادي برشلونة</p>
+                                <div class="stars d-flex justify-content-center align-items-center mb-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="price mb-2">
+                                    <span class="new-price">25 دولار</span>
+                                    <span class="old-price">50 دولار</span>
+                                </div>
+                                <button onclick="alert('تم اضافة المنتج الى السلة')" class="btn btn-danger w-100">اضافة
+                                    الى السلة
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                 
+                    <div class="col product mb-2 bags">
+                        <div class="card overflow-hidden">
+                            <div class="quick-icons">
+                                <a href="#quick-product-10" data-bs-toggle="modal"><i
+                                        class="fa-solid fa-magnifying-glass"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                                <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                                </i>
+                            </div>
+                            <img src="images/حقيبة-removebg-preview.png" alt="bags">
+                            <div class="product-info">
+                                <h3>حقيبة للاطفال</h3>
+                                <p>حقائب جميلة للمدارس</p>
+                                <div class="stars d-flex justify-content-center align-items-center mb-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="price mb-2">
+                                    <span class="new-price">75 دولار</span>
+                                    <span class="old-price">100 دولار</span>
+                                </div>
+                                <button onclick="alert('تم اضافة المنتج الى السلة')" class="btn btn-danger w-100">اضافة
+                                    الى السلة
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col product mb-2 bags">
+                        <div class="card overflow-hidden">
+                            <div class="quick-icons">
+                                <a href="#quick-product-11" data-bs-toggle="modal"><i
+                                        class="fa-solid fa-magnifying-glass"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                                <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                                </i>
+                            </div>
+                            <img src="images/حقيبة4.jpg" alt="bags">
+                            <div class="product-info">
+                                <h3>حقيبة مدرسية</h3>
+                                <p>حقائب مختلفة لممدارس</p>
+                                <div class="stars d-flex justify-content-center align-items-center mb-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="price mb-2">
+                                    <span class="new-price">50 دولار</span>
+                                    <span class="old-price">120 دولار</span>
+                                </div>
+                                <button onclick="alert('تم اضافة المنتج الى السلة')" class="btn btn-danger w-100">اضافة
+                                    الى السلة
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                 
+                    <div class="col product mb-2 acc">
+                        <div class="card overflow-hidden">
+                            <div class="quick-icons">
+                                <a href="#quick-product-13" data-bs-toggle="modal"><i
+                                        class="fa-solid fa-magnifying-glass"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                                <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                                </i>
+                            </div>
+                            <img src="images/قلادة-removebg-preview.png" alt="acc">
+                            <div class="product-info">
+                                <h3>الإكسسوارات</h3>
+                                <p>قلادات للرقبة رخيصة وجميلة</p>
+                                <div class="stars d-flex justify-content-center align-items-center mb-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="price mb-2">
+                                    <span class="new-price">15 دولار</span>
+                                    <span class="old-price">30 دولار</span>
+                                </div>
+                                <button onclick="alert('تم اضافة المنتج الى السلة')" class="btn btn-danger w-100">اضافة
+                                    الى السلة
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col product mb-2 acc">
+                        <div class="card overflow-hidden">
+                            <div class="quick-icons">
+                                <a href="#quick-product-14" data-bs-toggle="modal"><i
+                                        class="fa-solid fa-magnifying-glass"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                                <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                                </i>
+                            </div>
+                            <img src="images/قلادة 2.png" alt="acc">
+                            <div class="product-info">
+                                <h3>الإكسسوارات</h3>
+                                <p>قلادة جميلة ومميزة </p>
+                                <div class="stars d-flex justify-content-center align-items-center mb-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="price mb-2">
+                                    <span class="new-price">30 دولار</span>
+                                    <span class="old-price">60 دولار</span>
+                                </div>
+                                <button onclick="alert('تم اضافة المنتج الى السلة')" class="btn btn-danger w-100">اضافة
+                                    الى السلة
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                 
+                    <div class="col product mb-2 shoes">
+                        <div class="card overflow-hidden">
+                            <div class="quick-icons">
+                                <a href="#quick-product-16" data-bs-toggle="modal"><i
+                                        class="fa-solid fa-magnifying-glass"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                                <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                                </i>
+                            </div>
+                            <img src="images/شوز 2.jpg" alt="shoes">
+                            <div class="product-info">
+                                <h3>الاحذية</h3>
+                                <p>يتوفر اجمل الاحذية من النادي</p>
+                                <div class="stars d-flex justify-content-center align-items-center mb-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="price mb-2">
+                                    <span class="new-price">300 دولار</span>
+                                    <span class="old-price">600 دولار</span>
+                                </div>
+                                <button onclick="alert('تم اضافة المنتج الى السلة')" class="btn btn-danger w-100">اضافة
+                                    الى السلة
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col product mb-2 shoes">
+                        <div class="card overflow-hidden">
+                            <div class="quick-icons">
+                                <a href="#quick-product-17" data-bs-toggle="modal"><i
+                                        class="fa-solid fa-magnifying-glass"></i></a>
+                                <a href=""><i class="fa-regular fa-heart"></i></a>
+                                <a href=""><i class="fa-solid fa-code-compare"></i></a>
+                                </i>
+                            </div>
+                            <img src="images/شحاطة.jpg" alt="shoes">
+                            <div class="product-info">
+                                <h3>الاحذية</h3>
+                                <p>يتوفر احذية للمنزل ايضا</p>
+                                <div class="stars d-flex justify-content-center align-items-center mb-2">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </div>
+                                <div class="price mb-2">
+                                    <span class="new-price">10 دولار</span>
+                                    <span class="old-price">20 دولار</span>
+                                </div>
+                                <button onclick="alert('تم اضافة المنتج الى السلة')" class="btn btn-danger w-100">اضافة
+                                    الى السلة
+                                </button>
+                            </div>
+
+                        </div>
+                    </div>
+                    
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end bunner section  -->
+
+    <!-- start of footer  -->
+
+    <footer>
+    <div class="container">
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 mb-4">
+
+
+        <div class="col first-f">
+          <div class="d-flex flex-column gap-3">
+
+
+            <div class="d-flex align-items-center gap-2">
+              <img src="images/FC_Barcelona_(crest).svg.png" alt="FC Barcelona Logo" class="footer-logo">
+              <span class="footer-brand">FC Barcelona Store</span>
+            </div>
+
+
+            <p>
+              متجر برشلونة يقدم منتجات من قمصان وإكسسوارات بكل الفخامة.
+            </p>
+
+
+            <ul class="list-unstyled contact-info">
+              <li><i class="fa-solid fa-location-dot"></i> تركيا - هاتاي</li>
+              <li><i class="fa-solid fa-phone"></i> 05433344979</li>
+              <li><i class="fa-solid fa-envelope"></i> ismailhalvi@gmail.com</li>
+            </ul>
+
+          </div>
+        </div>
+
+        <div class="col third-f">
+          <h3>روابط سريعة</h3>
+          <ul class="list-unstyled">
+            <li><a href="index.html">الرئيسية</a></li>
+            <li><a href="cart.html">سلة المشتريات</a></li>
+            <li><a href="product.html">المنتجات </a></li>
+            <li><a href="category.html">التصنيفات</a></li>
+          </ul>
+        </div>
+
+
+        <div class="col third-f">
+          <h3>التصنيفات</h3>
+          <ul class="list-unstyled">
+            <li><a href="category.html">التيشيرتات</a></li>
+            <li><a href="category.html">الساعات</a></li>
+            <li><a href="category.html">الإكسسوارات</a></li>
+            <li><a href="category.html">الحقائب</a></li>
+
+
+          </ul>
+        </div>
+
+
+
+        <div class="col fourth-f">
+          <h3>النشرة البريدية</h3>
+          <p>اشترك للحصول على أحدث العروض والمنتجات من متجر برشلونة.</p>
+          <input type="text" placeholder="ادخل بريدك الإلكتروني" class="form-control mb-2">
+          <button class="btn btn-primary w-100">اشتراك</button>
+        </div>
+
+      </div>
+
+      <div class="row align-items-center justify-content-between mb-4  ">
+        <div class="col-md-4 text-center text-md-start mb-md-0">
+          <img src="images/payments.png" alt="طرق الدفع" class="img-fluid" style="max-height: 40px;">
+        </div>
+
+            <div class="col-md-4 text-md-center">
+          <p class="text-white mb-0">© 2025 جميع الحقوق محفوظة لمتجر برشلونة</p>
+        </div>
+
+
+
+        <div class="col-md-4 mb-md-0">
+          <div class="social-icons d-flex justify-content-end gap-3">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+          </div>
+        </div>
+
+    
+      </div>
+    </div>
+  </footer>
+
+
+    <!-- end of footer -->
+
+
+
+
+
+
+    <!-- cart -->
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="cart" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="cart">سلة المشتريات</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div class="row row-cols-1 row-mini-card">
+                <div class="col">
+                    <div class="col mini-card d-flex justify-content-between align-items-center">
+                        <img class="img-fluid w-25" src="images/تيشيرت احمر 55.png" alt="t-shirt">
+                        <p class="card-title">تيشيرت رئيسي</p>
+                        <div class="btn-gr btns-quantity-mini">
+                            <button type="button" class="btn">+</button>
+                            <button type="button" class="btn">1</button>
+                            <button type="button" class="btn">-</button>
+                        </div>
+                    </div>
+                    <div class="col mini-card d-flex justify-content-between align-items-center">
+                        <img class="img-fluid w-25" src="images/تيشيرت_اسود_55-removebg-preview.png" alt="t-shirt">
+                        <p>تيشيرت اسود</p>
+                        <div class="btn-gr btns-quantity-mini">
+                            <button type="button" class="btn">+</button>
+                            <button type="button" class="btn">1</button>
+                            <button type="button" class="btn">-</button>
+                        </div>
+                    </div>
+
+                    <div class="col mini-card d-flex justify-content-between align-items-center">
+                        <img class="img-fluid w-25" src="images/ساعة_6-removebg-preview.png" alt="wachs">
+                        <p>ساعة</p>
+                        <div class="btn-gr btns-quantity-mini">
+                            <button type="button" class="btn">+</button>
+                            <button type="button" class="btn">1</button>
+                            <button type="button" class="btn">-</button>
+                        </div>
+                    </div>
+
+                    <div class="col mini-card d-flex justify-content-between align-items-center">
+                        <img class="img-fluid w-25" src="images/ساعة4-removebg-preview.png" alt="wachs">
+                        <p>ساعة</p>
+                        <div class="btn-gr btns-quantity-mini">
+                            <button type="button" class="btn">+</button>
+                            <button type="button" class="btn">1</button>
+                            <button type="button" class="btn">-</button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+            <div class="d-flex flex-column gap-2">
+                <p class="alert alert-danger my-2 p-3 center">مجموع المنتجات: 860 دولار</p>
+                <button class="btn btn-primary w-100">اضافة الى السلة</button>
+                <button class="btn btn-danger w-100 my-2">استكمال الشراء</button>
+            </div>
+
+
+        </div>
+    </div>
+    <!-- end of cart -->
+
+    <!-- login -->
+
+
+
+
+    <!-- start filter  -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="filter" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="cart"> الفلترة</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+    <div class="filter-section sticky-lg-top">
+                    <h3 class="filter-title">فلترة للبحث: </h3>
+                    <input type="text" class="form-control" placeholder="ابحث هنا عن اسم المنتج">
+                    <select name="" id="" class="form-select mt-3">
+                        <option value="">تيشيرتات</option>
+                        <option value="">كابات</option>
+                        <option value="">ساعات</option>
+                        <option value="">احذية</option>
+                        <option value="">حقائب</option>
+                        <option value="">اكسسوارات</option>
+                    </select>
+                    <hr class="filter-hr">
+
+                    <h3 class="filter-title">فلترة بالتصنيف:</h3>
+                    <div class="filter-radio">
+                        <div>
+                            <input name="category" type="radio" class="form-check-input">
+                            <label for="" class="form-label">تيشيرت</label>
+                        </div>
+                        <div>
+                            <input name="category" type="radio" class="form-check-input">
+                            <label for="" class="form-label">كابات</label>
+                        </div>
+                        <div>
+                            <input name="category" type="radio" class="form-check-input">
+                            <label for="" class="form-label">ساعات</label>
+                        </div>
+                        <div>
+                            <input name="category" type="radio" class="form-check-input">
+                            <label for="" class="form-label">احذية</label>
+                        </div>
+                        <div>
+                            <input name="category" type="radio" class="form-check-input">
+                            <label for="" class="form-label">حقائب</label>
+                        </div>
+                        <div>
+                            <input name="category" type="radio" class="form-check-input">
+                            <label for="" class="form-label">اكسسوارات</label>
+                        </div>
+                    </div>
+
+
+
+                    <h3 class="filter-title mt-3">فلترة بلون التيشيرت:</h3>
+                    <div class="filter-radio">
+                        <div>
+                            <input name="category" type="radio" class="form-check-input">
+                            <label for="" class="form-label">تيشيرت</label>
+                        </div>
+                        <div>
+                            <input name="category" type="radio" class="form-check-input">
+                            <label for="" class="form-label">كابات</label>
+                        </div>
+                        <div>
+                            <input name="category" type="radio" class="form-check-input">
+                            <label for="" class="form-label">ساعات</label>
+                        </div>
+                        <div>
+                            <input name="category" type="radio" class="form-check-input">
+                            <label for="" class="form-label">احذية</label>
+                        </div>
+                        <div>
+                            <input name="category" type="radio" class="form-check-input">
+                            <label for="" class="form-label">حقائب</label>
+                        </div>
+                        <div>
+                            <input name="category" type="radio" class="form-check-input">
+                            <label for="" class="form-label">اكسسوارات</label>
+                        </div>
+                    </div>
+
+                </div>
+
+        </div>
+    </div>
+
+    <!-- end filter  -->
+
+
+
+
+
+
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="login" aria-labelledby="offcanvasExampleLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="login">تسجيل الدخول</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <div>
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1" class="form-label">اسم المستخدم او البريد الالكتروني:</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label">كلمة المرور:</label>
+                        <input type="password" class="form-control" id="password">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">تذكرني</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">تسجيل الدخول</button>
+                </form>
+
+                <div class="alert alert-danger my-2">
+                    <a class="link-login" href="">اذا نسيت كلمة المرور</a>
+                </div>
+                <hr>
+
+                <div class="login-center">
+                    <i class="fa-regular fa-user fa-3x"></i>
+                    <p>ليس لديك حساب؟</p>
+                    <a href="" class="btn btn-danger w-100 ">انشاء حساب</a>
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- end of login -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+            integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+            crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/scripts.js"></script>
+</body>
+
+</html>
